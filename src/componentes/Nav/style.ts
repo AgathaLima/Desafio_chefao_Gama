@@ -1,7 +1,10 @@
 import styled from 'styled-components'
 
 export const Container = styled.nav`
+height: 108px;
 color: black;
+justify-content: space-between;
+display: flex;
 ul{
     padding: 40px;
     display: flex;

@@ -1,18 +1,25 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    align-items: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+h1{
+    width: 100%;
     text-align: center;
+    margin-bottom: 76px ;
+}
 
-    h1{
-        margin-bottom: 30px;
-    }
+div{
 
-    div{
-        margin: 0 auto;
-        height: 491px;
-        width: 80%;
-        background-color: black;
-        margin-bottom: 100px;
-    }
+    text-align: center;
+    background-color: #D91A4D;
+    width: 550px;
+    height: 300px;
+    border-radius: 50px;
+    margin-bottom: 70px;
+}
+
+
 `;

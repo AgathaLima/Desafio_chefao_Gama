@@ -8,8 +8,8 @@ import { Produtos } from './componentes/Produtos';
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
+      <Routes> 
+        <Route path='/' element={<Home />}/>
         <Route path='/missao' element={<Missao/>}/>
         <Route path='/produtos' element={<Produtos/>}/>
       </Routes>
