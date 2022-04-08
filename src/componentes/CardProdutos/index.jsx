@@ -2,6 +2,7 @@ import { Container } from "./style";
 import { useState, useEffect } from 'react'
 import axios from "axios";
 
+
 export function CardProdutos(){
     const [ itens, setItens] = useState([])
     const  [text, setText] = useState([])
@@ -17,7 +18,6 @@ export function CardProdutos(){
     return ( 
         
         <>     
-        {/* <input type="text" / onChange>       */}
         <Container>
                   {itens.map((card) => {
                    return(
