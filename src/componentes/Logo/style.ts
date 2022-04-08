@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 export const Container =styled.div`
     height: 65px;
-    width: 15%;
+    width: 20vw;
     padding: 2%;
 
     @media only screen and (max-width: 750px){
-        width: 20%;
+        width: 30vw;
     }
     
     img{

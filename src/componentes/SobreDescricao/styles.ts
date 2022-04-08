@@ -17,7 +17,7 @@ export const Container =styled.section`
         margin-bottom: 80px;
 
         img{
-            width: 500px;
+            width: 25vw;
         }
 
         @media only screen and (max-width: 1200px) {
@@ -50,7 +50,6 @@ export const Container =styled.section`
         p{
             color: #3A3A3A;
             margin-left: 135px;
-            width: 400px;
             font-family: Lato;
             font-size: 24px;
             font-weight: 700;
@@ -61,7 +60,17 @@ export const Container =styled.section`
 
         @media only screen and (max-width: 1200px) {
                 p{
+                   padding: 5px;
+                }
+            }
+
+            
+        @media only screen and (max-width: 400px) {
+                p{
+                font-size: 16px;
                    margin: auto;
+                
+
                 }
             }
 

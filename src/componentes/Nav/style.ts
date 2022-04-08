@@ -12,29 +12,20 @@ line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
 
-@media only screen and (max-width: 750px) {
-font-size: 16px;
+@media only screen and (max-width: 450px) {
+font-size: 18px;
 font-weight: 400;
 line-height: 25px;
 
 }
 
-@media only screen and (max-width: 750px) {
-font-size: 10px;
-font-weight: 400;
-line-height: 20px;
-
-}
-
-
-
 ul{
-    padding: 3%;
+    padding: 6vh;
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
-    width: 40%;
+    width: 70%;
 }
 
 a   {
