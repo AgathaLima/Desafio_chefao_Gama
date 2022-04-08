@@ -14,7 +14,7 @@ export function Footer(){
             </div>
             <div>
                 <img src={logoBranca} alt="LogoBranca" />
-                <p><small> 'colocar copy' Grupo 10. Todos os direitos reservados</small></p>
+                <p><small> Grupo 10. Todos os direitos reservados</small></p>
             </div>
             <div>
                 <h1>Redes sociais</h1>
