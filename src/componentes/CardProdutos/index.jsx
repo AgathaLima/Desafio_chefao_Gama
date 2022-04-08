@@ -14,22 +14,22 @@ export function CardProdutos(){
             .catch(erro =>console.log(erro))
         }, [])
 
-        
-        
     return ( 
-        <>           
+        
+        <>     
+        {/* <input type="text" / onChange>       */}
         <Container>
                   {itens.map((card) => {
                    return(
-                    <>
-                    <div key={card.id}>
+                    
+                    <div className="cards" key={card.id}>
                         <img src={card.linkFoto} alt="teste"/>
                         <div className="texto">
                         <h2>{card.nome}</h2>
                         <p>{card.descricao}</p>
                         </div>
                     </div>
-                    </>
+                    
                     )
                      })}
              

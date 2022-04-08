@@ -29,7 +29,7 @@ line-height: 20px;
 
 
 ul{
-    padding: 4%;
+    padding: 3%;
     display: flex;
     flex-direction: row;
     list-style: none;

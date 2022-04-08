@@ -14,22 +14,24 @@ h2{
     margin-bottom: 20%;
 }
 
-div{
+.cards{
 
     text-align: center;
     background-color: #D91A4D;
     width: 550px;
     height: 25%;
-    border-radius: 50px;
     display: flex;
     margin-bottom: 70px;
+    border-radius: 50px;
 
     @media only screen and (max-width: 570px){
             width: 80%;
-            height: 150px;
+            
+            border-radius: 30px;
 
     }
-    @media only screen and (min-width: 375px){
+    @media only screen and (max-width: 375px){
+            width: 70%;
            border-radius: 40px;
     }
 }
@@ -46,6 +48,7 @@ div{
 img{
     align-items: flex-start;
     height: 100%;
+    width: 50%;
     @media only screen and (max-width: 570px){
             width: 50%;
     }
