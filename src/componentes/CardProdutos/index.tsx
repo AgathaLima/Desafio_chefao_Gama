@@ -1,5 +1,6 @@
 import { Container } from "./style";
 import { useState, useEffect } from 'react'
+import teste from '../img/teste.png'
 import axios from "axios";
 
 // interface Props {
@@ -23,13 +24,16 @@ export function CardProdutos(){
         console.log(itens)
     return (
         <Container>
+             <h1>Batidos</h1>
                  {itens.map((card) => {
                    return(
                     <>
-                    <h1>{card.categoria}</h1>
-                    <div>
+                    <div key={card.id}>
+                        <img src={teste} alt="teste"/>
+                        <div className="texto">
                         <h4>{card.nome}</h4>
                         <p>{card.descricao}</p>
+                        </div>
                     </div>
                     </>
                     )

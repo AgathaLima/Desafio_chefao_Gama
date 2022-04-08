@@ -6,6 +6,8 @@ export const Container = styled.footer`
     background-color: #7FA663;
     margin-top: 85px;
     display: flex;
+    font-family: Dosis;
+
 
     div{
         color: white;
@@ -15,6 +17,7 @@ export const Container = styled.footer`
         span{
             
             color: #F2B705;
+            font-weight: bolder;
         }
     }
 
