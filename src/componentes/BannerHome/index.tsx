@@ -5,7 +5,7 @@ import banner2 from  '../img/BANNER_SITE 2.png'
 export function BannerHome(){
     return(
         <Container>
-            <img src={banner2} alt="" />
+            <img src={banner2} alt="banner" />
         </Container>
     )
 }

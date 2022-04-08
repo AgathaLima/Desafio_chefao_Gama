@@ -1,4 +1,6 @@
 import { Container } from "./style";
+import { RiInstagramFill} from 'react-icons/ri'
+import { GrFacebook } from 'react-icons/gr'
 import logoBranca from '../img/juice_branca 1.png'
 
 export function Footer(){
@@ -16,8 +18,9 @@ export function Footer(){
             </div>
             <div>
                 <h1>Redes sociais</h1>
-                <div>
-                    icones
+                <div className="icons">
+                    <GrFacebook />
+                    <RiInstagramFill />
                 </div>
             </div>
             

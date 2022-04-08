@@ -23,16 +23,27 @@ div{
     border-radius: 50px;
     display: flex;
     margin-bottom: 70px;
+
+    @media only screen and (max-width: 570px){
+            width: 80%;
+    }
 }
 
 .texto{
     display: block;
     padding: 10%;
+    @media only screen and (max-width: 570px){
+            width: 40%;
+    }
 }
 
 img{
     align-items: flex-start;
     height: 100%;
+    @media only screen and (max-width: 570px){
+            width: 50%;
+            height: 100%;
+    }
 }
 
 

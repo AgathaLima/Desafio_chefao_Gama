@@ -4,11 +4,18 @@ export const Container = styled.section`
     display: flex;
     justify-content: space-around;
 
+    @media only screen and (max-width: 940px ) {
+        flex-direction: column;
+    }
+
     div{
         width: 300px;
         height: 391px;
         margin-bottom: 80px;
         margin-top: 105px;
+        @media only screen and (max-width: 940px ) {
+        margin: auto;
+    }
     }
     p{
 
