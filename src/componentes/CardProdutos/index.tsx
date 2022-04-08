@@ -1,44 +1,39 @@
 import { Container } from "./style";
 import { useState, useEffect } from 'react'
-import teste from '../img/teste.png'
 import axios from "axios";
-
-// interface Props {
-//     categoria: string,
-//     titulo: string,
-//     dados: string,
-// {categoria, titulo, dados}: Props
-// }
 
 export function CardProdutos(){
     const [ itens, setItens] = useState([])
+    const  [text, setText] = useState([])
 
         useEffect(()=>{
-            axios.get('https://juice-mania.herokuapp.com/juices')
+            axios.get(`https://juice-mania.herokuapp.com/juices`)
             .then((res)=>{
                 setItens(res.data)
             })
             .catch(erro =>console.log(erro))
         }, [])
+
         
-        console.log(itens)
-    return (
+        
+    return ( 
+        <>           
         <Container>
-             <h1>Batidos</h1>
-                 {itens.map((card) => {
+                  {itens.map((card) => {
                    return(
                     <>
                     <div key={card.id}>
-                        <img src={teste} alt="teste"/>
+                        <img src={card.linkFoto} alt="teste"/>
                         <div className="texto">
-                        <h4>{card.nome}</h4>
+                        <h2>{card.nome}</h2>
                         <p>{card.descricao}</p>
                         </div>
                     </div>
                     </>
                     )
-           })} 
+                     })}
+             
         </Container>
-        
+        </>
     )
 }

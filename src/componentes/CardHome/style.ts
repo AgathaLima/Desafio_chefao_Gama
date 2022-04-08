@@ -12,6 +12,7 @@ export const Container =styled.div`
 
     img{
         margin: auto;
+        width: 80%;
         margin-bottom: 65px;
     }
     h1{

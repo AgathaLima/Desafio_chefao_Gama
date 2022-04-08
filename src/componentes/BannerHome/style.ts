@@ -5,6 +5,7 @@ export const Container = styled.div`
     height: 450px;
     margin-top: 10px;
     margin-bottom: 50px;
-    background-image: url("../img/BANNER_SITE 2.png");
-    background-repeat: no-repeat;
+    img{
+        width: 100%;
+    }
 `; 

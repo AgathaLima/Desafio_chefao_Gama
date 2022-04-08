@@ -8,8 +8,8 @@ export function Nav(){
                 <Logo />
                 <ul>
                     <li><Link to="/">Início</Link></li>
-                    <li><Link to="/missao">Produtos</Link></li>
-                    <li><Link to="/produtos">A gente</Link></li>
+                    <li><Link to="/produtos">Produtos</Link></li>
+                    <li><Link to="/missao">A gente</Link></li>
                 </ul>
         </Container>
     )

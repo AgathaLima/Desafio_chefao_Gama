@@ -5,11 +5,13 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 font-family: Dosis;
+color: #fff;
+margin-top: 10%;
 
-h1{
-    width: 100%;
+h2{
+    
     text-align: center;
-    margin-bottom: 76px ;
+    margin-bottom: 20%;
 }
 
 div{
@@ -17,7 +19,7 @@ div{
     text-align: center;
     background-color: #D91A4D;
     width: 550px;
-    height: 300px;
+    height: 30%;
     border-radius: 50px;
     display: flex;
     margin-bottom: 70px;
@@ -25,10 +27,12 @@ div{
 
 .texto{
     display: block;
+    padding: 10%;
 }
 
 img{
     align-items: flex-start;
+    height: 100%;
 }
 
 
