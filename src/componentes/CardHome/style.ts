@@ -19,6 +19,5 @@ export const Container =styled.div`
         text-align: center;
         margin-bottom: 56px;
     }
-    }
 
 `
