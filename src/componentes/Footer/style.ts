@@ -10,8 +10,9 @@ export const Container = styled.footer`
     padding: 2%;
 
     @media only screen and (max-width: 665px) {
-        margin-top: 50px;
+       display: block;
         font-size: small;
+        text-align: center;
 }
 
     div{
@@ -25,7 +26,8 @@ export const Container = styled.footer`
 @media only screen and (max-width: 665px) {
        img{
            width: 60%;
-           margin: 0 auto;
+           height: 80px;
+           margin: 6% auto;
        }
         span{
             

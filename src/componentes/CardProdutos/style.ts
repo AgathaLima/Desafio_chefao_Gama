@@ -19,21 +19,27 @@ div{
     text-align: center;
     background-color: #D91A4D;
     width: 550px;
-    height: 30%;
+    height: 25%;
     border-radius: 50px;
     display: flex;
     margin-bottom: 70px;
 
     @media only screen and (max-width: 570px){
             width: 80%;
+            height: 150px;
+
+    }
+    @media only screen and (min-width: 375px){
+           border-radius: 40px;
     }
 }
 
 .texto{
     display: block;
     padding: 10%;
-    @media only screen and (max-width: 570px){
+    @media only screen and (min-width: 375px){
             width: 40%;
+            padding: 1% ;
     }
 }
 
@@ -42,7 +48,6 @@ img{
     height: 100%;
     @media only screen and (max-width: 570px){
             width: 50%;
-            height: 100%;
     }
 }
 
